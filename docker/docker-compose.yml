@@ -1,0 +1,14 @@
+# Content Type Machine Learning Classifier
+version: '3.4'
+services:
+  content_ai_machine_learning:
+    container_name: content_ai_machine_learning
+    build : .
+    volumes : 
+     - ../scripts:/scripts
+    restart: always
+    ports:
+     - 5002:5002
+#     entrypoint : "/bin/bash"
+#     stdin_open: true
+#     tty: true
