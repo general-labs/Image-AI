@@ -8,6 +8,6 @@ tensorflow==1.15.2
 Pillow==5.0.0
 face_recognition==1.2.3
 opencv-python==4.1.0.25
-flask_cors==3.0.8
+flask_cors==3.0.9
 matplotlib==3.0.3
 imutils==0.5.2
